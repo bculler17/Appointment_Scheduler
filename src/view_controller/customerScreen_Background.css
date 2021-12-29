@@ -1,0 +1,15 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 12, 2020, 9:12:12 PM
+    Author     : Beth Culler
+    Photo Credit : Image by Security from Pixabay 
+    https://pixabay.com/photos/basil-herbs-green-mediterranean-583816/
+*/
+.bodybg{
+ -fx-background-image: url('basil.jpg');
+ -fx-background-size: 100% 100%;
+}

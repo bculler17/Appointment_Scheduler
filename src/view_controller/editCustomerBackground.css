@@ -1,0 +1,14 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 26, 2020, 6:57:44 PM
+    Author     : Beth Culler
+    Photo Credit : https://pixabay.com/photos/bush-green-plant-spring-aroma-750998/
+*/
+.bodybg{
+ -fx-background-image: url('bush.jpg');
+ -fx-background-size: 100% 100%;
+}

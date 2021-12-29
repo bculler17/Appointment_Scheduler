@@ -1,0 +1,15 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 11, 2020, 10:56:59 PM
+    Author     : Beth Culler
+    Photo credit: https://www.pexels.com/photo/blank-book-pages-desk-green-531844/
+*/
+
+.bodybg{
+ -fx-background-image: url('blank-book-pages-desk-green-531844.jpg');
+ -fx-background-size: 100% 100%;
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loginScreen" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="bodybg" stylesheets="@loginScreen_Background.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view_controller.LoginController">
+   <children>
+      <AnchorPane layoutX="199.0" layoutY="51.0" AnchorPane.bottomAnchor="51.0" AnchorPane.leftAnchor="199.0" AnchorPane.rightAnchor="166.0" AnchorPane.topAnchor="51.0">
+         <children>
+            <Label fx:id="passwordLabel" layoutX="16.0" layoutY="107.0" text="Password">
+                <font>
+                  <Font name="System Bold" />
+               </font>
+            </Label>
+            <Label fx:id="applicationLabel" layoutX="16.0" layoutY="257.0" prefHeight="41.0" prefWidth="219.0" text="C195 Appointment Manager">
+               <font>
+                  <Font name="Candara Light" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="loginLabel" layoutX="16.0" layoutY="8.0" text="Log in">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Line endX="80.0" layoutX="124.0" layoutY="43.0" startX="-108.0" />
+            <Label fx:id="usernameLabel" layoutX="15.0" layoutY="58.0" text="Username">
+               <font>
+                  <Font name="System Bold" />
+               </font>
+            </Label>
+            <TextField fx:id="userNameField" layoutX="14.0" layoutY="75.0" prefHeight="26.0" prefWidth="190.0" style="-fx-background-color: white;" />
+            <PasswordField fx:id="passwordField" layoutX="16.0" layoutY="124.0" prefHeight="26.0" prefWidth="189.0" style="-fx-background-color: white;" />
+            <Label fx:id="languageLabel" layoutX="16.0" layoutY="156.0" text="Language">
+                <font>
+                  <Font name="System Bold" />
+               </font>
+            </Label>
+            <ComboBox fx:id="languageList" layoutX="14.0" layoutY="179.0" onAction="#languageHandler" prefHeight="29.0" prefWidth="190.0" promptText="Please select" visibleRowCount="3" />
+            <Button fx:id="loginButton" layoutX="15.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#loginHandler" prefHeight="32.0" prefWidth="190.0" style="-fx-background-color: #3BB9FF;" text="Log in" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
