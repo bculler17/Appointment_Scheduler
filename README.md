@@ -1,4 +1,4 @@
-# Appointment_Scheduler
+# Appointment Scheduler
 Scheduling Desktop User Interface Application
 
 WGU Software II - Advanced Java Concepts - C195
